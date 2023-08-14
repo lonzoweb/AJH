@@ -278,6 +278,7 @@
 				border-radius: 50%;
 
 				img {
+					filter: invert(1);
 					width: calc(48 / 16 * 1em);
 					height: calc(48 / 16 * 1em);
 				}
@@ -323,6 +324,9 @@
 
 		.card {
 			max-width: calc(357 / 16 * 1em);
+			img {
+			filter: invert(1);
+						}
 		}
 	}
 }

@@ -1,15 +1,15 @@
 {
-	"name": "Code Stitch Web Designs",
-	"email": "help@codestitch.app",
-	"phoneForTel": "555-779-4407",
-	"phoneFormatted": "(555) 779-4407",
+	"name": "Big J's Handyman Services",
+	"email": "info@bigjhandy.com",
+	"phoneForTel": "9176556064",
+	"phoneFormatted": "(917) 655-6064",
 	"address": {
-		"lineOne": "First Address Line",
-		"lineTwo": "Second Address Line",
-		"city": "Denver",
-		"state": "CO",
-		"zip": "80206",
-		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+		"lineOne": "Serving Indian River County",
+		"lineTwo": "and Surrounding Areas",
+		"city": "",
+		"state": "",
+		"zip": "",
+		"mapLink": "https://www.google.com/maps/d/u/0/edit?mid=13oGjibGn6df1j6nNbZ6KhpBLZ5mVIBc&usp=sharing"
 	},
-	"domain": "www.codestitch.app"
+	"domain": "www.bigjhandy.com"
 }

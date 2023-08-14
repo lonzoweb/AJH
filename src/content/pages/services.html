@@ -1,0 +1,113 @@
+---
+title: 'Services'
+description: 'Big J Handyman Services'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'services/'
+eleventyNavigation:
+    key: Services
+    order: 200
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/services.css">
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Services</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+
+    </section>
+
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+
+    
+
+                <section id="sbs"><div class="cs-container">
+                    <h1 class="cs-title">Let me give you an idea of the amount of work I can perform for you.</h1>
+                <!--<p class="cs-text">
+                    Welcome to Big J's Handyman Services. We are dedicated to quality work that transforms spaces the right way. From minor repairs to complete renovations, we are here to exceed your expectations and make your home truly shine.                </p>
+                <p class="cs-text">
+                    Whether you're dealing with a high-stakes, multi-million-dollar project or simply repairing a couple of damaged wood pieces on your neighbor's house, Big J's Handyman Service stands ready to surpass your every expectation, ensuring unparalleled quality.                </p>
+                <div class="cs-flex-group">
+                    <p class="cs-flex-p">
+                        We are now offering 24-hour emergency service due to water, wind, and fire damage.                    </p>
+                    <span class="cs-name">Jesse Alonso</span>
+                    <span class="cs-job">CEO-Founder</span>
+                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+                    --></div></section>
+                <section id="sbs">
+                    <div id="servicelist">
+                    <div class="cs-container">
+                        <div class="cs-left"> 
+                    <ul>
+                    <li>Courtain Hanging</li>
+                    <li>Door Repair</li>
+                    <li>Laundry Appliances</li>
+                    <li>Garbage Disposal</li>
+                    <li>Fan Installation</li>
+                    <li>Smoke Alarms</li>
+                    <li>Fence Repair</li>
+                    <li>Garage Storage</li>
+                    <li>Screen Door Repair</li>
+                    <li>Pool Enclosure Repair</li>
+                    <li>TV Mounting</li>
+                    <li>Light Fixtures</li>
+                    <li>Mirror Hanging</li>
+                    <li>Outdoor Decks</li>
+                    <li>Window Repair</li>
+                    <li>Switches and Outlets</li>
+                    <li>Circuit Brakers</li>
+                    <li>Mini Blinds</li>
+                    <li>Closet Shelves</li>
+                    <li>Painting</li>
+                    <li>Ceramic Tile</li>
+                    <li>Ceiling Repair</li>
+                    <li>Framing</li>
+                    <li>Network Setup</li>
+                    <li>Pressure Cleaning</li>
+                    <li>Gutter Cleaning</li>
+                    <li>Landscaping</li>
+                    <li>Drywall Repair</li>
+                    <li>Cabinet Refacing</li>
+                    <li>Floor Repair</li>
+                    <li>Vinyl Plank flooring</li>
+                    <li>Grouting</li>   
+                    <li>Countertops</li>
+                    <li>Caulking</li>
+                    <li>Tile Installation</li>
+                    <li>Sink Installation</li>
+                    <li>Leaking Faucet</li>
+                    <li>Toillet Repair</li>
+                    <li>and more...</li>
+                    </li>
+                    </ul></div></div></div></section>
+                <!-- <a href="/projects" class="cs-button-solid">Our Projects</a> -->
+                <div id="iconz">
+                        <img id="image-38-115" alt="" src="http://georgiainhomeservices.com/wp-content/uploads/2022/03/icons1.png" class="ct-image about-page-partners-icons">
+                        <img id="image-39-115" alt="" src="http://georgiainhomeservices.com/wp-content/uploads/2022/03/icons-2.png" class="ct-image about-page-partners-icons">
+                        <img id="image-41-115" alt="" src="http://georgiainhomeservices.com/wp-content/uploads/2022/03/icons-3.png" class="ct-image about-page-partners-icons">
+                        <img id="image-42-115" alt="" src="http://georgiainhomeservices.com/wp-content/uploads/2022/03/icons-5.png" class="ct-image about-page-partners-icons">
+                        <img id="image-43-115" alt="" src="http://georgiainhomeservices.com/wp-content/uploads/2022/03/icons-6.png" class="ct-image about-page-partners-icons">
+                        <img id="image-44-115" alt="" src="http://georgiainhomeservices.com/wp-content/uploads/2022/03/icons-7.png" class="ct-image about-page-partners-icons">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

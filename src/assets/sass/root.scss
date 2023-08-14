@@ -4,6 +4,9 @@
 <---        Core Styles         -->
 <--- -------------------------- -*/
 
+.hidden {
+	display:none;
+}
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0em) {
 	// Website colors
@@ -491,7 +494,7 @@
 
 			.cs-logo {
 				/* makes it white */
-				filter: grayscale(1) brightness(1000%);
+				filter: invert(1) grayscale(1) brightness(1000%);
 			}
 
 			.cs-line {
@@ -727,7 +730,7 @@
 
 			.cs-drop-icon {
 				/* turns it white */
-				filter: grayscale(1) brightness(1000%);
+				filter: invert(1) grayscale(1) brightness(1000%);
 			}
 		}
 	}
@@ -849,7 +852,7 @@
 
 			.cs-logo {
 				/* makes it turn white */
-				filter: grayscale(1) brightness(1000%);
+				filter: invert(1) grayscale(1) brightness(1000%);
 			}
 
 			.cs-li-link {
@@ -1119,7 +1122,7 @@
 
 				img {
 					width: auto;
-					height: 100%;
+					height: 200%;
 					display: block;
 				}
 			}
