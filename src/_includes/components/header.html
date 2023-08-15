@@ -16,6 +16,7 @@
                     <span class="cs-line cs-line1" aria-hidden="true"></span>
                     <span class="cs-line cs-line2" aria-hidden="true"></span>
                     <span class="cs-line cs-line3" aria-hidden="true"></span>
+                    <!-- <span class="cs-line cs-line4" aria-hidden="true"></span> -->
                 </div>
             </button>
             <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
@@ -38,7 +39,7 @@
                                     <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
                                 {% endif %}
                             </a>
-
+                            
                             <!-- Dropdowns have another ul/li set up within the parent li. Render in the same way as a normal link -->
                             {% if hasChild %}
                                 <ul class="cs-drop-ul">
@@ -47,10 +48,12 @@
                                             <a href="{{ child.url }}" class="cs-li-link cs-drop-link">{{ child.key }}</a>
                                         </li>
                                     {% endfor %}
+
                                 </ul>
                             {% endif %}
                         </li>
                     {% endfor %}
+                    <li class="cs-li"><a href="/contact" class="cs-button-solid-mobilenav cs-nav-button">Contact Us</a></li>    
                 </ul>
             </div>
         </nav>

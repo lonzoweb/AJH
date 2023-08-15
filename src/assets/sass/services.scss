@@ -8,7 +8,7 @@
 	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 100%;
+	width: 80%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -21,9 +21,20 @@
 }
 
 
+/* mobile phone */
+@media only screen and (max-width: 450px) {
+	#iconz {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		row-gap: 15px;
+	}
+}
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
+
+
 	#sbs {
 		padding: var(--sectionPadding);
 
