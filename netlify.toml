@@ -6,6 +6,12 @@
   # Installs the Lighthouse Build Plugin for all deploy contexts
   package = "@netlify/plugin-lighthouse"
 
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+  
 [build.processing]
   skip_processing = false
 [build.processing.css]
